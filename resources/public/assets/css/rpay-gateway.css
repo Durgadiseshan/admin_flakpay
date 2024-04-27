@@ -1,0 +1,294 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+  }
+  
+  /* a {
+    color: #00a8e9;
+  } */
+  
+  a:hover {
+    color: #34e5a6;
+    text-decoration: none;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  
+  
+  
+  
+  /*--------------------------------------------------------------
+  # Disable AOS delay on mobile
+  --------------------------------------------------------------*/
+   @media screen and (max-width: 768px) {
+    [data-aos-delay] {
+      transition-delay: 0 !important;
+    }
+  } 
+  
+
+/*--------------------------------------------------------------
+# Intro Section
+--------------------------------------------------------------*/
+#intro {
+    width: 100%;
+    position: relative;
+    background: url("../img/bnr3.png") center bottom no-repeat;
+    background-size: cover;
+    padding: 200px 0 120px 0;
+  }
+  
+  @media (max-width: 991px) {
+    #intro {
+      padding: 140px 0 60px 0;
+    }
+  }
+  
+  @media (max-width: 574px) {
+    #intro {
+      padding: 100px 0 20px 0;
+    }
+  }
+  
+  #intro .intro-img {
+    width: 50%;
+    float: right;
+    position: relative;
+    left: 50px;
+    bottom: 60px;
+    
+  }
+  
+  @media (max-width: 991px) {
+    #intro .intro-img {
+      width: 80%;
+      float: none;
+      margin: 0 auto 25px auto;
+    }
+  }
+  
+  #intro .intro-info {
+    width: 50%;
+    float: left;
+  }
+  
+  @media (max-width: 991px) {
+    #intro .intro-info {
+      width: 80%;
+      float: none;
+      margin: auto;
+      text-align: center;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    #intro .intro-info {
+      width: 100%;
+    }
+  }
+  
+  #intro .intro-info h2 {
+    color: #111180;
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 13%;
+    line-height: 50px;
+    text-shadow: 5px 4px 11px rgba(0, 0, 0, 0.35);
+  }
+  
+  #intro .intro-info p {
+    font-weight: 550;
+    text-align: justify;
+  }
+  
+  @media (max-width: 767px) {
+    #intro .intro-info h2 {
+      font-size: 34px;
+      margin-bottom: 30px;
+    }
+  }
+  
+  #intro .intro-info .btn-get-started {
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    font-weight: 650;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 22px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin: 0 20px 20px 0;
+    color: #fff;
+  }
+  
+  #intro .intro-info .btn-get-started {
+    background: #00a8e9;
+    border: 2px solid #00a8e9;
+    color: #fff;
+  }
+  
+  #intro .intro-info .btn-get-started:hover {
+    background: none;
+    border-color: #fff;
+    color: #fff;
+  }
+  
+  #intro .intro-info .btn-services {
+    border: 2px solid #fff;
+  }
+  
+  #intro .intro-info .btn-services:hover {
+    background: #007bff;
+    border-color: #007bff;
+    color: #fff;
+  }
+
+
+  /*-- banner --*/
+  
+.banner {
+    background:url(../img/express.png)no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+    background-size: cover; 
+	position: relative;
+	min-height:700px;
+}
+.banner-textagileinfo {
+    padding: 5em;
+    /* background: rgba(0, 0, 0, 0.52); */
+}
+
+.banner-text {
+    padding: 6em 0 0;
+    display: inline-block
+}
+.flexx{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+}
+.banner-text h1 {
+    color: #fff !important;
+    margin-bottom:0.5em;
+    padding: 0 5em 0.5em 0;
+    font-weight: 700;
+    letter-spacing: 1px;
+    display: inline-block;
+}
+.banner-text h3 {
+    font-size: 1.8em;
+    color: #fff;
+    margin-bottom: 0.5em;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.banner-text h3 span {
+    display: block;
+    font-size: 2em;
+}
+.banner-textagileinfo p {
+    width: 43%;
+    color: #afb2b3;
+    font-size: 1.2em;
+}
+.w3l-bb-grid1 h5 {
+    color: rgba(243, 243, 243, 0.46);
+    font-size: 1.4em;
+}
+.more a {
+    font-size: 1em;
+    color: #49c7ed;
+    padding: 0.7em 0em;
+    position: relative;
+    -moz-osx-font-smoothing: grayscale;
+    text-decoration: none;
+    display: block;
+    -webkit-transition: .5s all;
+    -moz-transition: .5s all;
+    -o-transition: .5s all;
+    -ms-transition: .5s all;
+    transition: .5s all;
+}
+.more a:hover{
+	background:transparent;
+	-webkit-border-radius:30px;
+	-moz-border-radius:30px;
+	border-radius:30px;
+}
+/*-- banner-bottom --*/
+.agileits-banner-bot {
+    padding-top: 2em;
+}
+.w3l-bb-grid1 {
+    border-left: 2px solid #fff;
+}
+.w3l-bb-grid1 h4 {
+    text-transform: capitalize;
+    color: #49c7ed;
+    font-size: 1.5em;
+    margin: 0.8em 0 0.5em;
+}
+.w3l-bb-grid1 p {
+    width: 75%;
+    font-size: 1em;
+    color: #fff;
+}
+/*-- //banner-bottom --*/
+
+
+/* about */
+
+.about-wthree-grids,.blog-wthree-grids,.color-img-three{
+    padding: 2.5em 2em;
+    background: #f5f5f5;
+    box-shadow: -3px 3px 7px #bfbfbf;
+}
+.about-icon span,.service-icon span {
+    color: #fff;
+	line-height:73px;
+    font-size: 34px;
+}
+.about-two-grids {
+    padding:8em 3em 2em;
+}
+.about-icon, .service-icon {
+    width: 73px;
+    height: 73px;
+    border-radius: 50px;
+    margin: 0px auto;
+}
+.color-two {
+    background: #b23249;
+}
+.color-one{
+    background: #ffc107;
+}
+.color-three {
+    background: #0062cc;
+}
+.color-four{
+    background:#28a745;
+}
+.gap-to-top {
+    margin-top: 70px;
+}
+.gap-to-two {
+    margin-top: 35px;
+}
+/* --//about--*/
+
+
+/* section */
+.section-title p {
+    margin: 0;
+    margin: 0;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #171b2f
+  }

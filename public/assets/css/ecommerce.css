@@ -1,0 +1,229 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+  }
+  
+  /* a {
+    color: #00a8e9;
+  } */
+  
+  a:hover {
+    color: #34e5a6;
+    text-decoration: none;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  
+  
+  
+  
+  /*--------------------------------------------------------------
+  # Disable AOS delay on mobile
+  --------------------------------------------------------------*/
+   @media screen and (max-width: 768px) {
+    [data-aos-delay] {
+      transition-delay: 0 !important;
+    }
+  } 
+  
+/*--------------------------------------------------------------
+# Intro Section
+--------------------------------------------------------------*/
+#intro {
+    width: 100%;
+    position: relative;
+    /* background: url("../img/bnr3.png") center bottom no-repeat; */
+    background-size: cover;
+    padding: 200px 0 120px 0;
+  }
+  
+  @media (max-width: 991px) {
+    #intro {
+      padding: 140px 0 60px 0;
+    }
+  }
+  
+  @media (max-width: 574px) {
+    #intro {
+      padding: 100px 0 20px 0;
+    }
+  }
+  
+  #intro .intro-img {
+    width: 50%;
+    float: right;
+    position: relative;
+    left: 50px;
+    bottom: 60px;
+    
+  }
+  
+  @media (max-width: 991px) {
+    #intro .intro-img {
+      width: 80%;
+      float: none;
+      margin: 0 auto 25px auto;
+    }
+  }
+  
+  #intro .intro-info {
+    width: 50%;
+    float: left;
+  }
+  
+  @media (max-width: 991px) {
+    #intro .intro-info {
+      width: 80%;
+      float: none;
+      margin: auto;
+      text-align: center;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    #intro .intro-info {
+      width: 100%;
+    }
+  }
+  
+  #intro .intro-info h2 {
+    color: #111180;
+    font-size: 45px;
+    font-weight: 800;
+    margin-top: 13%;
+    line-height: 55px;
+    text-shadow: 5px 4px 11px rgba(0, 0, 0, 0.35);
+  }
+  
+  #intro .intro-info p {
+    font-weight: 500;
+    text-align: justify;
+    font-size: 15px;
+  }
+  
+  @media (max-width: 767px) {
+    #intro .intro-info h2 {
+      font-size: 34px;
+      margin-bottom: 30px;
+    }
+  }
+  
+  #intro .intro-info .btn-get-started {
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    font-weight: 650;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 22px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin: 0 20px 20px 0;
+    color: #fff;
+  }
+  
+  #intro .intro-info .btn-get-started {
+    background: #00a8e9;
+    border: 2px solid #00a8e9;
+    color: #fff;
+  }
+  
+  #intro .intro-info .btn-get-started:hover {
+    background: none;
+    border-color: #fff;
+    color: #fff;
+  }
+  
+  #intro .intro-info .btn-services {
+    border: 2px solid #fff;
+  }
+  
+  #intro .intro-info .btn-services:hover {
+    background: #007bff;
+    border-color: #007bff;
+    color: #fff;
+  }
+
+  /*--------------------------------------------------------------
+# Features
+--------------------------------------------------------------*/
+.features .content + .content {
+  margin-top: 100px;
+}
+
+.features .content h3 {
+  font-weight: 600;
+  font-size: 26px;
+}
+
+.features .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.features .content ul li {
+  padding-bottom: 10px;
+}
+
+.features .content ul i {
+  font-size: 20px;
+  padding-right: 4px;
+  color: #3b4ef8;
+}
+
+.features .content p:last-child {
+  margin-bottom: 0;
+}
+
+
+  /* ----section---- */
+  
+  section {
+    padding: 60px 0;
+    overflow: hidden;
+  }
+  
+  .section-bg {
+    background-color: #f5f5ff;
+  }
+  
+  .section-title {
+    padding-bottom: 40px;
+  }
+  
+  .section-title h2 {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0;
+    line-height: 1px;
+    margin: 0 0 5px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #aaaaaa;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .section-title h2::after {
+    content: "";
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    background: #1acc8d;
+    margin: 4px 10px;
+  }
+  
+  .section-title p {
+    margin: 0;
+    margin: 0;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #010483;
+  }
+
+
+  
+ 

@@ -1,0 +1,262 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+  }
+  
+  /* a {
+    color: #00a8e9;
+  } */
+  
+  a:hover {
+    color: #34e5a6;
+    text-decoration: none;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  
+  
+  
+  
+  /*--------------------------------------------------------------
+  # Disable AOS delay on mobile
+  --------------------------------------------------------------*/
+   @media screen and (max-width: 768px) {
+    [data-aos-delay] {
+      transition-delay: 0 !important;
+    }
+  } 
+  
+
+/*--------------------------------------------------------------
+# Intro Section
+--------------------------------------------------------------*/
+#intro {
+    width: 100%;
+    position: relative;
+    background: url("../img/wallet.png") center bottom no-repeat;
+    background-size: cover;
+    padding: 200px 0 120px 0;
+  }
+  
+  @media (max-width: 991px) {
+    #intro {
+      padding: 140px 0 60px 0;
+    }
+  }
+  
+  @media (max-width: 574px) {
+    #intro {
+      padding: 100px 0 20px 0;
+    }
+  }
+  
+  #intro .intro-img {
+    width: 50%;
+    float: right;
+    position: relative;
+    left: 65px;
+    bottom: 150px;
+    
+  }
+  
+  @media (max-width: 991px) {
+    #intro .intro-img {
+      width: 80%;
+      float: none;
+      margin: 0 auto 25px auto;
+    }
+  }
+  
+  #intro .intro-info {
+    width: 50%;
+    float: left;
+  }
+  
+  @media (max-width: 991px) {
+    #intro .intro-info {
+      width: 80%;
+      float: none;
+      margin: auto;
+      text-align: center;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    #intro .intro-info {
+      width: 100%;
+    }
+  }
+  
+  #intro .intro-info h2 {
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 25%;
+    text-transform: uppercase;
+    line-height: 50px;
+    text-shadow: 5px 4px 11px rgba(0, 0, 0, 0.35);
+  }
+  
+  #intro .intro-info p {
+    font-weight: 500;
+    text-align: justify;
+    color: white;
+    margin-top: 20px;
+  }
+  
+  @media (max-width: 767px) {
+    #intro .intro-info h2 {
+      font-size: 34px;
+      margin-bottom: 30px;
+    }
+  }
+  
+  #intro .intro-info .btn-get-started {
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    font-weight: 650;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 22px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin: 0 20px 20px 0;
+    color: #fff;
+  }
+  
+  #intro .intro-info .btn-get-started {
+    background: #00a8e9;
+    border: 2px solid #00a8e9;
+    color: #fff;
+  }
+  
+  #intro .intro-info .btn-get-started:hover {
+    background: none;
+    border-color: #fff;
+    color: #fff;
+  }
+  
+  #intro .intro-info .btn-services {
+    border: 2px solid #fff;
+  }
+  
+  #intro .intro-info .btn-services:hover {
+    background: #007bff;
+    border-color: #007bff;
+    color: #fff;
+  }
+
+  /*
+---------------------------------------------
+about
+---------------------------------------------
+*/
+
+#about {
+    padding: 120px 0px 0px 0px;
+    position: relative;
+    z-index: 9;
+  }
+  
+  #about .container {
+    border-bottom: 5px solid #f7f7f7;
+    padding-bottom: 80px;
+  }
+  
+  #about .section-heading {
+    margin-bottom: 10px;
+  }
+  
+  #about .section-heading h6 {
+    color: #5fb759;
+  }
+  
+  #about .service-item {
+    margin-top: 30px;
+  }
+  
+  #about .service-item i {
+    float: left;
+    margin-right: 15px;
+    width: 46px;
+    height: 46px;
+  }
+  
+  #about .service-item h4 {
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.25px;
+    line-height: 46px;
+  }
+  
+  #about a.main-button-icon {
+    display: inline-block;
+    margin-top: 60px;
+  }
+  
+  #about .right-text-content {
+    margin-top: 40px;
+  }
+  
+  #about .right-text-content p {
+    font-size: 16px;
+    line-height: 27px;
+    color: #777;
+  }
+/* ---section---- */
+
+  .section-title p {
+    margin: 0;
+    margin: 0;
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #171b2f;
+  }
+  
+
+  
+/*
+---------------------------------------------
+features
+---------------------------------------------
+*/
+
+#features {
+    padding-top: 80px;
+    padding-bottom: 70px;
+  }
+  
+  #features .features-item {
+    margin-bottom: 50px;
+  }
+  
+  .features-item .features-icon {
+    float: left;
+  }
+  
+  .features-item .features-icon i{
+      color: #00a8e9;
+  }
+  #features .features-content {
+    margin-left: 75px;
+  }
+  
+  .features-item .features-content h4 {
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.25px;
+    margin-bottom: 15px;
+  }
+  
+  .features-item .features-content p {
+    margin-bottom: 13px;
+  }
+  
+  

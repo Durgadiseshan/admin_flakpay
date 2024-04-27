@@ -1,0 +1,41 @@
+/.phpunit.cache
+/node_modules
+/public/build
+/public/hot
+/public/storage
+/public/images
+/public/settlement/*
+/storage/*.key
+/storage
+/vendor
+.env.backup
+.env.production
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+auth.json
+npm-debug.log
+yarn-error.log
+/.fleet
+/.idea
+/.vscode
+.env
+/public/settlement/*
+
+# Ignore compiled PHP files
+*.php[co]
+
+# Ignore SQLite database file
+/database/*.sqlite
+
+# Ignore IDE-specific directories
+.idea
+.vscode
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+.composer.lock
+/composer.lock
+/.htaccess
+.htaccess

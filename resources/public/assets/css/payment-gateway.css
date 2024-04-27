@@ -1,0 +1,365 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+  }
+  
+  /* a {
+    color: #00a8e9;
+  } */
+  
+  a:hover {
+    color: #34e5a6;
+    text-decoration: none;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  
+  
+  
+  
+  /*--------------------------------------------------------------
+  # Disable AOS delay on mobile
+  --------------------------------------------------------------*/
+   @media screen and (max-width: 768px) {
+    [data-aos-delay] {
+      transition-delay: 0 !important;
+    }
+  } 
+  
+
+/*--------------------------------------------------------------
+# Intro Section
+--------------------------------------------------------------*/
+#intro {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background: url("../img/payment-bnr.png") center bottom no-repeat;
+    background-size: cover;
+    padding: 200px 0 120px 0;
+  }
+  
+  @media (max-width: 991px) {
+    #intro {
+      padding: 140px 0 60px 0;
+    }
+  }
+  
+  @media (max-width: 574px) {
+    #intro {
+      padding: 100px 0 20px 0;
+    }
+  }
+  
+  #intro .intro-img {
+    width: 50%;
+    float: right;
+    position: relative;
+    left: 75px;
+    bottom: 85px;
+    
+  }
+  
+  @media (max-width: 991px) {
+    #intro .intro-img {
+      width: 80%;
+      float: none;
+      margin: 0 auto 25px auto;
+    }
+  }
+  
+  #intro .intro-info {
+    width: 50%;
+    float: left;
+    position: relative;
+    bottom: 39px;
+    right: 30px;
+  }
+  
+  @media (max-width: 991px) {
+    #intro .intro-info {
+      width: 80%;
+      float: none;
+      margin: auto;
+      text-align: center;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    #intro .intro-info {
+      width: 100%;
+    }
+  }
+  
+  #intro .intro-info h2 {
+    color: #111180;
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 13%;
+    line-height: 50px;
+    text-shadow: 5px 4px 11px rgba(0, 0, 0, 0.35);
+  }
+  
+  #intro .intro-info p {
+    font-weight: 500;
+    font-size: 15px;
+    text-align: justify;
+  }
+  
+  @media (max-width: 767px) {
+    #intro .intro-info h2 {
+      font-size: 34px;
+      margin-bottom: 30px;
+    }
+  }
+  
+  /* #intro .intro-info .btn-get-started {
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    font-weight: 650;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 22px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin: 0 20px 20px 0;
+    color: #fff;
+  }
+  
+  #intro .intro-info .btn-get-started {
+    background: #00a8e9;
+    border: 2px solid #00a8e9;
+    color: #fff;
+  }
+  
+  #intro .intro-info .btn-get-started:hover {
+    background: none;
+    border-color: #fff;
+    color: #fff;
+  }
+   */
+
+   .subscribe form {
+    margin-top: 30px;
+    background: #fff;
+    padding: 6px 10px;
+    position: relative;
+    border-radius: 50px;
+    text-align: left;
+    border: 1px solid #e4e3e6;
+  }
+  
+  .subscribe form input[type="email"] {
+    border: 0;
+    padding: 4px 8px;
+    /* width: calc(60% - 60px); */
+  }
+  
+  .subscribe form input[type="submit"] {
+    position: absolute;
+    top: 0;
+    right: -2px;
+    bottom: 0;
+    border: 0;
+    background: none;
+    font-size: 16px;
+    padding: 0 20px;
+    background: #00a8e9;
+    color: #fff;
+    transition: 0.3s;
+    border-radius: 50px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .subscribe form input[type="submit"]:hover {
+    background: #111180;
+    color: white;
+  }
+  
+  #intro .intro-info .btn-services {
+    border: 2px solid #fff;
+  }
+  
+  #intro .intro-info .btn-services:hover {
+    background: #007bff;
+    border-color: #007bff;
+    color: #fff;
+  }
+
+  /* ----section---- */
+  
+  section {
+    padding: 60px 0;
+    overflow: hidden;
+  }
+  
+  .section-bg {
+    background-color: #f5f5ff;
+  }
+  
+  .section-title {
+    padding-bottom: 40px;
+  }
+  
+  .section-title h2 {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0;
+    line-height: 1px;
+    margin: 0 0 5px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #aaaaaa;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .section-title h2::after {
+    content: "";
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    background: #1acc8d;
+    margin: 4px 10px;
+  }
+  
+  .section-title p {
+    margin: 0;
+    margin: 0;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #010483;
+  }
+
+ 
+ .btn-group button {
+  background-color: #00a8e9;
+  border: 1px solid green;
+  color: white; 
+  padding: 10px 24px;
+  cursor: pointer;
+  float: left; 
+  font-weight: 600;
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+
+.btn-group button:focus {
+  background-color: white;
+  color: #111180;
+  font-weight: 700;
+}
+ /*--------------------------------------------------------------
+# feature
+--------------------------------------------------------------*/
+.features{
+  background: linear-gradient(70deg, #111180 65%, #fff 20%); 
+}
+.features .icon-box {
+ padding: 30px;
+ border-radius: 6px;
+ background: #fff;
+ transition: ease-in-out 0.3s;
+}
+
+.features .icon-box i {
+ float: left;
+ color: #3498db;
+ font-size: 40px;
+}
+
+.features .icon-box h4 {
+ margin-left: 70px;
+ font-weight: 700;
+ margin-bottom: 15px;
+ font-size: 18px;
+}
+
+.features .icon-box h4 a {
+ color: #384046;
+ transition: 0.3s;
+}
+
+.features .icon-box p {
+ margin-left: 70px;
+ line-height: 24px;
+ font-size: 14px;
+ opacity: 1;
+}
+
+/* -------------payment option----------- */
+article i{
+  color: #00a8e9;
+}
+article h4{
+  font-size: 20px;
+}
+article p{
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* ----------content 3------------ */
+.cwp17-text h2{
+  font-weight: 600;
+  color: #111180;
+}
+
+.cwp17-text article p{
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.cwp17-text article p a{
+  font-size: 14px;
+  font-weight: bold;
+  position: relative;
+  top: 20px;
+}
+/* 
+    /* --------------------step.------------- */
+  
+.w3l-index-block2 .s-block {
+  box-shadow: var(--card-box-shadow);
+  border-radius: var(--card-curve);
+  transition: 0.3s ease-in;
+  padding: 0 27px; }
+
+.w3l-index-block2 .s-block:hover {
+  box-shadow: var(--card-hover-box-shadow);
+  transform: scale(1.1);}
+
+.w3l-index-block2 .s-block h3 {
+  color: #00a8e9;
+  font-size: 20px;
+  line-height: 35px;
+  font-weight: 600;
+}
+
+.w3l-index-block2 .settle{
+  margin-top: 20px;
+}
+
+.w3l-index-block2 .s-block p {
+  color: var(--text-color);
+  margin-top: 15px;
+  font-size: 18px;
+  line-height: 26px;
+text-align: justify; }
+
+

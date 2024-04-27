@@ -1,0 +1,372 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+  }
+  
+  /* a {
+    color: #00a8e9;
+  } */
+  
+  a:hover {
+    color: #34e5a6;
+    text-decoration: none;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  
+  
+  
+  
+  /*--------------------------------------------------------------
+  # Disable AOS delay on mobile
+  --------------------------------------------------------------*/
+   @media screen and (max-width: 768px) {
+    [data-aos-delay] {
+      transition-delay: 0 !important;
+    }
+  } 
+  
+
+/*--------------------------------------------------------------
+# Intro Section
+--------------------------------------------------------------*/
+#intro {
+    width: 100%;
+    position: relative;
+    background: url("../img/express.png") center bottom no-repeat;
+    background-size: cover;
+    padding: 200px 0 120px 0;
+  }
+  
+  @media (max-width: 991px) {
+    #intro {
+      padding: 140px 0 60px 0;
+    }
+  }
+  
+  @media (max-width: 574px) {
+    #intro {
+      padding: 100px 0 20px 0;
+    }
+  }
+  
+  #intro .intro-img {
+    width: 50%;
+    float: right;
+    position: relative;
+    left: 50px;
+    bottom: 60px;
+    
+  }
+  
+  @media (max-width: 991px) {
+    #intro .intro-img {
+      width: 80%;
+      float: none;
+      margin: 0 auto 25px auto;
+    }
+  }
+  
+  #intro .intro-info {
+    width: 50%;
+    float: left;
+  }
+  
+  @media (max-width: 991px) {
+    #intro .intro-info {
+      width: 80%;
+      float: none;
+      margin: auto;
+      text-align: center;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    #intro .intro-info {
+      width: 100%;
+    }
+  }
+  
+  #intro .intro-info h2 {
+    color: white;
+    font-size: 70px;
+    font-weight: 800;
+    letter-spacing: normal;
+    margin-top: 13%;
+    line-height: 50px;
+    text-shadow: 5px 4px 11px rgba(0, 0, 0, 0.35);
+  }
+  #intro .intro-info h3{
+      color: white;
+      line-height: 60px;
+  }
+  
+  #intro .intro-info p {
+      color: white;
+    font-weight: 500;
+    text-align: justify;
+  }
+  
+  @media (max-width: 767px) {
+    #intro .intro-info h2 {
+      font-size: 34px;
+      margin-bottom: 30px;
+    }
+    #intro .intro-info p {
+        color: white;
+      font-weight: 500;
+      text-align: justify;
+      font-size: 14px;
+    }
+  }
+  
+  #intro .intro-info .btn-get-started {
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    font-weight: 650;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 22px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin: 0 20px 20px 0;
+    color: #fff;
+  }
+  
+  #intro .intro-info .btn-get-started {
+    background: #00a8e9;
+    border: 2px solid #00a8e9;
+    color: #fff;
+  }
+  
+  #intro .intro-info .btn-get-started:hover {
+    background: none;
+    border-color: #fff;
+    color: #fff;
+  }
+  
+  #intro .intro-info .btn-services {
+    border: 2px solid #fff;
+  }
+  
+  #intro .intro-info .btn-services:hover {
+    background: #007bff;
+    border-color: #007bff;
+    color: #fff;
+  }
+
+  /* About Us Section
+--------------------------------*/
+#about {
+    padding: 80px 0;
+  }
+  
+  #about .about-content {
+    padding-top: 40px;
+  }
+  
+  #about .about-content h2 {
+    color: #413e66;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+  }
+  
+  #about .about-content h3 {
+    color: #696592;
+    font-weight: 400;
+    font-size: 22px;
+    font-style: italic;
+    margin-top: 50px;
+  }
+  
+  #about .about-content ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #about .about-content ul li {
+    padding-bottom: 10px;
+  }
+  
+  #about .about-content ul li i {
+    font-size: 20px;
+    padding-right: 4px;
+    color: #1bb1dc;
+  }
+  
+  #about .about-img {
+    position: relative;
+    margin: 30px 30px 30px 30px;
+  }
+  
+  #about .about-img img {
+    width: 100%;
+    transition: .5s;
+  }
+  
+  #about .about-img img:hover {
+    width: 100%;
+    transform: scale(1.03);
+  }
+  
+  /* #about .about-img::before {
+    position: absolute;
+    left: -31px;
+    top: -30px;
+    width: 90%;
+    height: 92%;
+    z-index: -1;
+    content: '';
+    background-color: #ebf1fa;
+    transition: .5s;
+  }
+  
+  #about .about-img::after {
+    position: absolute;
+    right: -31px;
+    bottom: -30px;
+    width: 90%;
+    height: 92%;
+    z-index: -1;
+    content: '';
+    background-color: #ebf1fa;
+    transition: .5s;
+  } */
+
+
+  /* Services Section
+--------------------------------*/
+#services {
+    padding: 60px 0 40px 0;
+    background-image: url(../img/express-serv.png);
+  }
+  
+  #services .box {
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 0 10px 40px 10px;
+    background: #171b2f;
+    box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+  }
+   
+  #services .box:hover {
+    transform: scale(1.1);
+  }
+  
+  #services .icon {
+    margin: 0 auto 15px auto;
+    padding-top: 12px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+  }
+  
+  #services .icon i {
+    font-size: 36px;
+    line-height: 1;
+  }
+  
+  #services .title {
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+  
+  #services .title a {
+    color: white;
+  }
+  
+  #services .box:hover .title a {
+    color: #1bb1dc;
+  }
+  
+  #services .description {
+    font-size: 14px;
+    line-height: 28px;
+    margin-bottom: 0;
+    text-align: left;
+    color: white;
+  }
+
+  /*  */
+  .section-title p {
+    margin: 0;
+    margin: 0;
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #010483;
+  }
+
+  /* Frequently Asked Questions Section
+--------------------------------*/
+#faq {
+    padding: 60px 0;
+    overflow: hidden;
+  }
+  
+  #faq #faq-list {
+    padding: 0;
+    list-style: none;
+  }
+  
+  #faq #faq-list li {
+    border-bottom: 1px solid #ebebeb;
+  }
+  
+  #faq #faq-list a {
+    padding: 22px 0;
+    display: block;
+    position: relative;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    line-height: 1;
+    font-weight: 400;
+    padding-right: 20px;
+  }
+  
+  #faq #faq-list i {
+    font-size: 24px;
+    position: absolute;
+    right: 0;
+    top: 20px;
+  }
+  
+  #faq #faq-list p {
+    margin-bottom: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    #faq #faq-list a {
+      font-size: 18px;
+    }
+    #faq #faq-list i {
+      top: 13px;
+    }
+  }
+  
+  #faq #faq-list a.collapse {
+    color: #1bb1dc;
+  }
+  
+  #faq #faq-list a.collapsed {
+    color: #000;
+  }
+  
+  #faq #faq-list a.collapsed i::before {
+    content: "\f2c7" !important;
+  }
+  
+  
+
+  

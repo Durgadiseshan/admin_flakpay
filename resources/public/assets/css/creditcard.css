@@ -1,0 +1,247 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+  }
+  
+  /* a {
+    color: #00a8e9;
+  } */
+  
+  a:hover {
+    color: #34e5a6;
+    text-decoration: none;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  
+  
+  
+  
+  /*--------------------------------------------------------------
+  # Disable AOS delay on mobile
+  --------------------------------------------------------------*/
+   @media screen and (max-width: 768px) {
+    [data-aos-delay] {
+      transition-delay: 0 !important;
+    }
+  } 
+  
+/*--------------------------------------------------------------
+# Intro Section
+--------------------------------------------------------------*/
+#intro {
+    width: 100%;
+    position: relative;
+    background: url("../img/express.png") center bottom no-repeat;
+    background-size: cover;
+    padding: 200px 0 120px 0;
+  }
+  
+  @media (max-width: 991px) {
+    #intro {
+      padding: 140px 0 60px 0;
+    }
+  }
+  
+  @media (max-width: 574px) {
+    #intro {
+      padding: 100px 0 20px 0;
+    }
+  }
+  
+  #intro .intro-img {
+    width: 50%;
+    float: right;
+    position: relative;
+    left: 70px;
+    bottom: 60px;
+    
+  }
+  
+  @media (max-width: 991px) {
+    #intro .intro-img {
+      width: 80%;
+      float: none;
+      margin: 0 auto 25px auto;
+    }
+  }
+  
+  #intro .intro-info {
+    width: 50%;
+    float: left;
+  }
+  
+  @media (max-width: 991px) {
+    #intro .intro-info {
+      width: 80%;
+      float: none;
+      margin: auto;
+      text-align: center;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    #intro .intro-info {
+      width: 100%;
+    }
+  }
+  
+  #intro .intro-info h2 {
+    color: white;
+    font-size: 45px;
+    font-weight: 800;
+    margin-top: 13%;
+    line-height: 55px;
+    text-shadow: 5px 4px 11px rgba(0, 0, 0, 0.35);
+  }
+  
+  #intro .intro-info p {
+    font-weight: 500;
+    text-align: justify;
+    font-size: 15px;
+    color: white;
+  }
+  
+  @media (max-width: 767px) {
+    #intro .intro-info h2 {
+      font-size: 34px;
+      margin-bottom: 30px;
+    }
+  }
+  
+  #intro .intro-info .btn-get-started {
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    font-weight: 650;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 22px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin: 0 20px 20px 0;
+    color: #fff;
+  }
+  
+  #intro .intro-info .btn-get-started {
+    background: #00a8e9;
+    border: 2px solid #00a8e9;
+    color: #fff;
+  }
+  
+  #intro .intro-info .btn-get-started:hover {
+    background: none;
+    border-color: #fff;
+    color: #fff;
+  }
+  
+  #intro .intro-info .btn-services {
+    border: 2px solid #fff;
+  }
+  
+  #intro .intro-info .btn-services:hover {
+    background: #007bff;
+    border-color: #007bff;
+    color: #fff;
+  }
+
+   /* Why Us Section
+--------------------------------*/
+#why-us {
+    padding: 60px 0;
+  }
+  
+  @media (max-width: 991px) {
+    #why-us .why-us-content {
+      padding-top: 30px;
+    }
+  }
+  
+  #why-us .why-us-content .features {
+    margin: 0 0 15px 0;
+    padding: 0;
+    transition: 0.3s ease-in-out;
+  }
+  
+  #why-us .why-us-content .features i {
+    font-size: 36px;
+    float: left;
+  }
+  
+  #why-us .why-us-content .features h4 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 56px;
+    color: #413e66;
+    margin-bottom: 5px;
+  }
+  
+  #why-us .why-us-content .features p {
+    font-size: 15px;
+    margin-left: 56px;
+    color: #696969;
+  }
+
+  /* section-----------------*/
+  .section-title p {
+    margin: 0;
+    margin: 0;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #010483;
+  }
+
+  /* caht--------------------- */
+ .chat {
+    border: 2px solid #00a8e5;
+    color: #696969;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+        
+  }
+  
+  #darker {
+    color: white;
+    background-color: #00a8e9;
+    width: 500px;
+  }
+  
+  .chat::after {
+    content: "";
+    clear: both;
+    display: table;
+    max-width: 500px;
+  }
+  
+  .chat img {
+    float: left;
+    max-width: 60px;
+    width: 100%;
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+  #darker p{
+    float: right;
+  }
+  
+  .chat img.right {
+    float: right;
+    margin-left: 20px;
+    margin-right:0;
+  }
+  
+  .time-right {
+    float: right;
+    color: #aaa;
+  }
+  
+  .time-left {
+    float: left;
+    color: #999;
+  } 

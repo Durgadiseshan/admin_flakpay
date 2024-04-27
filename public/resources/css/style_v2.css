@@ -1,0 +1,578 @@
+body {
+  background-color: #6c757d;
+}
+
+h1 {
+  color: white;
+  /* text-align: center; */
+}
+
+p {
+  font-family: verdana;
+  font-size: 12px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.card{
+  margin-top: 10px;
+  border-radius: 20px;
+}
+.modal-header {
+  background: -webkit-linear-gradient(left, #fd434e, #ffb355);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.left-header {
+  height: 0px;
+}
+
+.headerImg {
+  width: 100px;
+  height: 80px;
+  background-color: white;;
+  border-radius: 10% !important;
+  box-shadow: 10px 10px #dedede;
+  -moz-box-shadow: 1px 10px 5px #dedede;
+  -webkit-box-shadow: 1px 1px 2px 1px #dedede;
+  -khtml-box-shadow: 1px 10px 5px #dedede;
+  /* margin-left: 15px; */
+}
+.card-header{
+  background:linear-gradient(273deg, rgba(82,32,134,1) 0%, rgba(246,17,146,1) 100%);
+  border-top-left-radius: 20px !important;
+  border-top-right-radius: 20px !important;
+}
+@media only screen and (max-width: 600px) {
+  .left-header .headerImg {
+    width: 80px;
+    border-radius: 10% !important;
+    box-shadow: 10px 10px #dedede;
+    -moz-box-shadow: 1px 10px 5px #dedede;
+    -webkit-box-shadow: 1px 10px 5px #dedede;
+    -khtml-box-shadow: 1px 10px 5px #dedede;
+  }
+}
+/* .head{
+ margin-top: 40px;
+  } */
+.modal-dialog {
+  /* width: 550px; */
+  width: 480px;
+  /* height: 1000px; */
+}
+@media only screen and (max-width: 600px) {
+  .modal-dialog {
+    width: auto;
+    /* height: 1000px; */
+  }
+  .col-5{
+    width: auto;
+  }
+}
+.checkout{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  color: #000;
+  }
+  .checkout span{
+  height:25px;
+  width:25px;
+  background-color:rgb(255, 254, 254);
+  border-radius:50%;
+  position:absolute;
+  top:-12px;
+  right:-10px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  cursor:pointer;
+  }
+.modal-content {
+  -webkit-border-radius: 0px !important;
+  -moz-border-radius: 0px !important;
+  border-radius: 25px !important;
+}
+.right-header {
+  width: 400px;
+}
+@media only screen and (max-width: 600px) {
+  .right-header {
+    width: auto;
+    margin-top: -5px;
+    padding-left: 38%;
+  }
+  .col-4
+  {
+    width: auto;
+  }
+}
+.header-text {
+  
+  font-size: 12px;
+  color: white;
+}
+
+.text-white{
+	font-size: 12px;	
+}
+.paymentoptions .p-head{
+	margin-bottom: 20px;
+	text-align: center;
+	font-size: 15px;
+}
+.paymentoptions .p-head p{
+	margin-bottom: 10px;
+}
+.paymentoptions .p-head .p-headSec{
+	color:#000;
+}
+.paymentoptions .p-head .p-headSec span{
+	padding: 0 5px;
+	color: #ac1390;
+}
+
+.upioptions .p-head{
+	margin-bottom: -30px;
+	text-align: center;
+	font-size: 15px;
+}
+.upioptions .p-head p{
+	margin-bottom: 10px;
+}
+.upioptions .p-head .p-headSec{
+	color:#000;
+}
+.upioptions .p-head .p-headSec span{
+	padding: 0 5px;
+	color: #ac1390;
+}
+
+
+.cardoptions .p-head{
+	margin-bottom: -30px;
+	text-align: center;
+	font-size: 15px;
+}
+.cardoptions .p-head p{
+	margin-bottom: 10px;
+}
+.cardoptions .p-head .p-headSec{
+	color:#000;
+}
+.cardoptions .p-head .p-headSec span{
+	padding: 0 5px;
+	color: #ac1390;
+}
+
+.netbankoptions .p-head{
+	margin-bottom: -30px;
+	text-align: center;
+	font-size: 15px;
+}
+.netbankoptions .p-head p{
+	margin-bottom: 10px;
+}
+.netbankoptions .p-head .p-headSec{
+	color:#000;
+}
+.netbankoptions .p-head .p-headSec span{
+	padding: 0 5px;
+	color: #ac1390;
+}
+
+.walletoptions .p-head{
+	margin-bottom: -30px;
+	text-align: center;
+	font-size: 15px;
+}
+.walletoptions .p-head p{
+	margin-bottom: 10px;
+}
+.walletoptions .p-head .p-headSec{
+	color:#000;
+}
+.walletoptions .p-head .p-headSec span{
+	padding: 0 5px;
+	color: #ac1390;
+}
+
+
+.card-body .p-head{
+	/* margin-bottom: -30px; */
+	font-size: 15px;
+}
+.card-body .p-head p{
+  font-size: 12px;
+  color: #528;
+	margin-bottom: 10px;
+}
+.card-body .p-head .p-headSec{
+	color:#000;
+}
+.card-body .p-head .p-headSec span{
+	padding: 0 5px;
+	color: #528;
+}
+.card-body {
+  font-size: 18px;
+  font-weight: 800;
+  color: white;
+  padding:10px 10px 0px;
+}
+.btn-close-white {
+  margin-top: -120px !important;
+  color: white;
+  font-size: 24px;
+}
+.modal-body {
+  margin-top: 40px;
+}
+.payment_methods {
+  margin-left:0px;
+  /* overflow: scroll; */
+}
+@media only screen and (max-width: 600px) {
+  .form {
+    margin-left: 4px;
+    /* overflow: scroll; */
+  }
+}
+.mobilenumber {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+#userMobileNumber p{
+	margin-bottom:5px;
+	font-size:15px;
+}
+#userMobileNumber span{
+	margin-right:10px;
+}
+.email-text {
+  margin-top: 20px;
+  margin-left: 10px;
+  width: 400px;
+}
+input {
+  border: none;
+  background-color: transparent;
+  margin:5px;
+}
+.modal-footer {
+  color: #000 !important;
+}
+.footer {
+  display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+  color: #000 !important;
+}
+.footer-text {
+  font-size: 12px;
+  font-weight: 600;
+  color: rgb(35, 34, 34);
+}
+.contiune-btn .btn {
+  justify-content: center;
+  margin-top: 50px !important;
+  padding-left: 20px;
+  width: 200px;
+  padding-right: 20px;
+  margin-bottom: 20px;
+}
+.banking-logos {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+  gap: 5px;
+  margin-bottom: 20px;
+}
+.banking-logos img {
+  width: 60px;
+}
+.banking-logos a {
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  /* background-color: #FFFFFF;
+    border: solid 1px #EEEEEE; */
+  transition: all 0.2s ease;
+  box-shadow: none;
+}
+.banking-logos a img {
+  display: block;
+}
+.secure-text {
+  font-size: 12px;
+  margin-bottom: 0px;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+color: #000 !important;
+  color: rgb(131, 130, 130);
+}
+.quick-logos {
+  width: 400px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  /* gap: 5px; */
+  margin-bottom: 20px;
+}
+.quick-logos img {
+  width: 80px;
+}
+.quick-logos a {
+  /* border-radius: 14px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  background-color: #ffffff;
+  border: solid 1px #eeeeee;
+  transition: all 0.2s ease;
+  box-shadow: none;
+}
+.quick-logos a img {
+  display: block;
+}
+.quickpay-title {
+  padding-top: 30px !important;
+  padding-bottom: 30px !important;
+  color: #000;
+}
+
+.company-logos {
+  margin-top: 40px;
+  /* width:400px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 5px; */
+  margin-bottom: 20px;
+}
+/* .company-logos img{
+    width: 120px;
+  } */
+/* .company-logos a{
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    transition: all 0.2s ease;
+    box-shadow: none;
+  } */
+/* .company-logos a img {
+    display: block;
+  } */
+.paymentM {
+  width: 100%;
+  text-align:center;
+  padding: 0px 10px;
+}
+@media only screen and (max-width: 600px) {
+  .paymentM {
+    /* width: 320px !important; */
+  }
+}
+@media only screen and (max-width: 600px) {
+  .list-group-item:hover {
+    background-color: rgb(172, 169, 186);
+  }
+}
+.upiIdOption {
+  margin-bottom: 50px;
+  padding-left: 20px;
+}
+.upipay_btn_div {
+  margin-bottom: 10px;
+  color: #528;
+  background-color: transparent;
+}
+.upipay_btn {
+  border: 1px solid #528;
+  background-color: transparent;
+  color: #528;
+}
+.upipay_btn:hover {
+color: #fff;
+background-color: #528;
+
+}
+
+.list-group-item:hover {
+  background-color: rgb(235, 225, 225);
+}
+.upi-logos_img {
+  height: 30px;
+  width: 100px;
+}
+.qrcode_img {
+  height: 100px;
+  width: 100px;
+}
+.choose-another-payment-option {
+  color: rgb(20, 187, 247);
+  font-weight: bold;
+}
+
+.sacn_card_img {
+  height: 200px;
+  width: 350px;
+  border-radius: 12px;
+}
+.net-logos {
+  /* width:400px; */
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  /* gap: 5px; */
+}
+.net-logos img {
+  width: 60px;
+}
+.net-logos a {
+  /* border-radius: 14px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width:80px;
+  height: 80px;
+  background-color: #ffffff;
+  border: solid 1px #ccc;
+  transition: all 0.2s ease;
+  box-shadow: none;
+  margin:10px;
+}
+.net-logos a img {
+  display: block;
+  width: 30px;
+}
+.selectNetBank {
+  padding: 10px;
+}
+.wallet-logos {
+  /* width:400px; */
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  /* gap: 5px; */
+  margin-bottom: 20px;
+}
+.wallet-logos img {
+  width: 60px;
+}
+.wallet-logos a {
+  /* border-radius: 14px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  background-color: #ffffff;
+  border: solid 1px #ccc;
+  transition: all 0.2s ease;
+  box-shadow: none;
+}
+.wallet-logos a img {
+  display: block;
+}
+@media only screen and (max-width: 600px) {
+  .upioptions {
+    width: auto !important;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .cardoptions {
+    width: auto !important;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .netbankoptions {
+    width: auto !important;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .walletoptions {
+    width: auto !important;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .paylateroptions {
+    width: auto !important;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .emioptions {
+    width: auto !important;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .sacn_card_img {
+    width: auto !important;
+  }
+}
+
+.cardImg { 
+	position: relative; 
+	}
+.cardImg input { 
+	background:#fff; 
+	display:block; 
+	width: 100%; 
+	box-sizing: border-box;
+  font-size: 12px;
+	}
+#cardImg img { 
+	position: absolute; 
+	top: 48px;
+    right: 10px; 
+}
+/* .modal:nth-of-type(even) {
+  z-index: 1062 !important;
+}
+.modal-backdrop.show:nth-of-type(even) {
+  z-index: 1061 !important;
+} */
+.align_footer{
+	display: flex;	
+}
+
+.footer-img
+{display: flex;
+flex-direction: row;
+justify-content: space-between;
+padding: 10px;
+}
+
+.padding-pci
+{
+  padding: 20px;
+}
+
+.header-amount
+{
+  font-size: 12px;
+  color: white;
+}
+.text-center
+{
+  color:black;
+  margin-bottom: 1px;
+  padding: 10px 10px 0px;
+  font-size: 12px;
+  font-weight: 700;
+}
+.list-group-item
+{
+  padding: 10px;
+}
+.username-back
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+}

@@ -1,0 +1,1 @@
+<h1>Sent a test mail</h1>

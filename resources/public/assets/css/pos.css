@@ -1,0 +1,253 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+  }
+  
+  /* a {
+    color: #00a8e9;
+  } */
+  
+  a:hover {
+    color: #34e5a6;
+    text-decoration: none;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  
+  
+  
+  
+  /*--------------------------------------------------------------
+  # Disable AOS delay on mobile
+  --------------------------------------------------------------*/
+   @media screen and (max-width: 768px) {
+    [data-aos-delay] {
+      transition-delay: 0 !important;
+    }
+  } 
+  
+
+  /*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+#hero {
+    width: 100%;
+    background-image: url("../img/hero-bg.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right top;
+    margin-top: 70px;
+    padding: 60px 0;
+  }
+  
+  #hero h1 {
+    margin: 0 0 20px 0;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #0d0d6b;
+  }
+  
+  #hero h2 {
+    color: #576971;
+    margin-bottom: 30px;
+    font-size: 24px;
+  }
+  
+  #hero .btn-get-started {
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 12px 28px;
+    border-radius: 3px;
+    transition: 0.5s;
+    color: #fff;
+    background: #009cea;
+  }
+  
+  #hero .btn-get-started:hover {
+    background: #008bd1;
+  }
+  
+  #hero .hero-img {
+    text-align: center;
+  }
+  
+  #hero .hero-img img {
+    width: 70%;
+  }
+  
+  @media (min-width: 1024px) {
+    #hero {
+      background-attachment: fixed;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    #hero h1 {
+      font-size: 32px;
+      line-height: 40px;
+    }
+    #hero h2 {
+      font-size: 20px;
+    }
+  }
+
+  /*--------------------------------------------------------------
+# Features
+--------------------------------------------------------------*/
+.feature .content + .content {
+    margin-top: 100px;
+  }
+  
+  .feature .content h3 {
+    font-weight: 600;
+    font-size: 26px;
+  }
+  
+  .feature .content ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .feature .content ul li {
+    padding-bottom: 10px;
+  }
+  
+  .feature .content ul i {
+    font-size: 20px;
+    padding-right: 4px;
+    color: #3b4ef8;
+  }
+  
+  .feature .content p:last-child {
+    margin-bottom: 0;
+  }
+
+  /* ------section------------- */
+
+  .section-title p {
+    margin: 0;
+    margin: 0;
+    font-size: 29px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #171b2f;
+  }
+
+
+  /*--------------------------------------------------------------
+# Cta
+--------------------------------------------------------------*/
+.cta {
+    background: linear-gradient(rgba(2, 2, 2, 0.7), rgba(0, 0, 0, 0.7)), url("../img/cta.jpg") fixed center center;
+    background-size: cover;
+    padding: 90px 0;
+  }
+  
+  .cta h3 {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+  }
+  
+  .cta p {
+    color: #fff;
+  }
+  
+  .cta .cta-btn {
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 18px;
+    border-radius: 25px;
+    transition: 0.5s;
+    margin-top: 10px;
+    border: 2px solid #00a8e9;
+    color: #fff;
+    background-color: #00a8e9;
+  }
+  
+  .cta .cta-btn:hover {
+    background: #009970;
+    border: 2px solid #009970;
+  }
+  
+  
+
+  /*--------------------------------------------------------------
+# feature
+--------------------------------------------------------------*/
+.features .icon-box {
+   padding: 30px;
+   border-radius: 6px;
+   /* background: #fff; */
+   background-color: #171b2f;
+   transition: ease-in-out 0.3s;
+ }
+ 
+ .features .icon-box i {
+   float: left;
+   color: #3498db;
+   font-size: 40px;
+ }
+ 
+ .features .icon-box h4 {
+   margin-left: 70px;
+   font-weight: 700;
+   margin-bottom: 15px;
+   font-size: 18px;
+ }
+ 
+ .features .icon-box h4 a {
+   color: #384046;
+   transition: 0.3s;
+   color: white;
+ }
+ 
+ .features .icon-box p {
+   margin-left: 70px;
+   line-height: 24px;
+   font-size: 14px;
+   opacity: 1;
+   color: white;
+ }
+ 
+
+   /* DO-more */
+.do-more {
+  /* background: url(../images/inner.jpg) no-repeat top; */
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
+}
+
+.do-more h3{
+  color: #111180;
+}
+
+.parts-do-more span {
+  font-size: 2em;
+  color: #333;
+}
+
+.parts-do-more h4 {
+
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-top: 1.5em;
+}
+
+/* //=============DO-MORE */
+

@@ -1,0 +1,1360 @@
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body {
+  -webkit-overflow-scrolling: touch;
+  width: 100%;
+  height: 100%;
+}
+body {
+  background: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px/18px;
+  font-weight: 400;
+}
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle;
+}
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+textarea {
+  resize: vertical;
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.hidden,
+[hidden] {
+  display: none !important;
+}
+.clearfix::before,
+.clearfix::after {
+  content: " ";
+  display: table;
+}
+.clearfix::after {
+  clear: both;
+}
+.box-shadow-light {
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 10%);
+}
+.m-r-20 {
+  margin-right: 20px;
+}
+
+/* ==========================================================================
+   custom styles
+   ========================================================================== */
+
+/* Note Styles Starts */
+
+.note-box {
+  background-color: #FFFBF1;
+  border: solid 1px #F0DECB;
+  width: 100%;
+  padding: 12px 20px 20px 20px;
+  border-radius: 6px;
+  margin-bottom: 40px;
+}
+.note-box strong {
+  font-size: 16px;
+  line-height: 20px;
+  color: #000;
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+.note-box p {
+  font-size: 14px;
+  line-height: 18px;
+  color: #000;
+  font-weight: 400;
+  text-align: justify;
+  margin: 0;
+}
+/* Note Styles Ends */
+
+
+/* Buttons Styles Starts */
+.green-btn {
+  background-color: #4C9A44;
+  border-radius: 50px;
+  padding: 12px 50px;
+  color: #fff;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  text-align: center;
+  display: block;
+  cursor: pointer;
+}
+.grey-btn {
+  background-color: #D9D9D9;
+  border-radius: 50px;
+  padding: 12px 38px;
+  color: #000;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  text-align: center;
+  display: block;
+  cursor: pointer;
+}
+.buttons-group {
+  display: flex;
+  justify-content: flex-end;
+}
+/* Buttons Styles Ends */
+
+
+
+@media only screen and (max-width: 768px) {
+  .active-logo {
+    border: solid 1px #5B1D87 !important;
+  }
+  .form-group-upi {
+    display: flex;
+    margin-bottom: 40px;
+  }
+  .hide {
+    display: none;
+  }
+  .show {
+    display: block;
+  }
+  .tab-pane-heading {
+    font-size: 18px;
+    line-height: 22px;
+    color: #000;
+    text-align: center;
+    margin: 5px 0 15px 0;
+    font-weight: 500;
+  }
+  .tab-content {
+    z-index: 100;
+    margin-top: -35px;
+  }
+  .upi-symbol {
+    font-size: 18px;
+    line-height: 22px;
+    color: #787878;
+    flex: 0 0 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .upi-address-field {
+    width: 50%;
+  }
+  .upi-address-field-small {
+    width: 25%;
+  }
+
+  .hide-mobile {
+    display: none;
+  }
+  .green-btn {
+    font-size: 14px;
+    line-height: 18px;
+    padding: 10px 30px;
+  }
+  .buttons-group {
+    justify-content: center;
+  }
+  .form-group {
+    margin-bottom: 20px;
+  }
+  .form-label {
+    margin-bottom: 5px;
+    display: block;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000;
+    font-weight: 500;
+  }
+  .form-control {
+    border: solid 1px #D9D9D9;
+    color: #787878;
+    background-color: #fff;
+    outline: none;
+    font-size: 14px;
+    line-height: 18px;
+    padding: 8px;
+    width: 100%;
+  }
+  .desktop-logo {
+    display: none;
+  }
+  .checkout-col-right {
+    display: none;
+  }
+  .tab-content .tab-pane {
+    display: none;
+  }
+  .tab-content .tab-pane.active {
+    display: block;
+  }
+
+
+  .banking-logos {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  .banking-logos a {
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    background-color: #FFFFFF;
+    border: solid 1px #EEEEEE;
+    transition: all 0.2s ease;
+    box-shadow: none;
+  }
+  .banking-logos a img {
+    display: block;
+  }
+  .all-banks-dropdown {
+    margin-bottom: 30px;
+  }
+  .cash-card-logos {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  .cash-card-logos a {
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    background-color: #FFFFFF;
+    border: solid 1px #EEEEEE;
+    transition: all 0.2s ease;
+    text-decoration: none;
+    padding: 15px;
+    box-shadow: none;
+  }
+  .cash-card-logos a span {
+    font-size: 11px;
+    line-height: 15px;
+    color: #000;
+    margin-top: 10px;
+  }
+  .cash-card-logos a img {
+    display: block;
+  }
+
+  .select-wallet-dropdown {
+    margin-bottom: 30px;
+  }
+
+  .upi-logos {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  .upi-logos a {
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    background-color: #FFFFFF;
+    border: solid 1px #EEEEEE;
+    transition: all 0.2s ease;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    box-shadow: none;
+  }
+  .upi-logos a img {
+    display: block;
+  }
+
+  /* Footer Styles Starts */
+  .footer {
+    display: block;
+    background-color: #fff;
+    padding: 20px 0;
+  }
+  .footer-card-icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .footer-card-icons a {
+    display: block;
+    text-decoration: none;
+    margin-right: 10px;
+    width: 40px;
+  }
+  .footer-card-icons a img {
+    display: block;
+    width: 100%;
+  }
+  /* Footer Styles Ends */
+
+  .mobile-header {
+    padding: 25px 15px 40px;
+    background: linear-gradient(180deg, #e2e2e2,#e2e2e2);
+    min-height: 145px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .mobile-header-container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-left: auto;
+    flex: 0 1 87%;
+  }
+  .mobile-header-left {
+    flex: 0 1 80%;
+  }
+  .header-ypl-logo {
+    border-radius: 10px;
+    width: 70px;
+    height: 70px;
+    background-color: #fff;
+    padding: 5px;
+  }
+  .paying-to {
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: #5A1C84;
+  }
+  .header-ypl-logo img {
+    display: block;
+    width: 100%;
+  }
+  .mobile-header-center {
+    text-align: center;
+  }
+  .mobile-header-center .back-btn {
+    display: flex;
+  }
+  .back-btn {
+    display: flex;
+    padding: 15px;
+    flex: 0 1 12%;
+  }
+  .back-btn::before {
+    content: '';
+    width: 15px;
+    height: 30px;
+    background: url('../img/left-arrow.png') no-repeat;
+    background-size: 15px 30px;
+  }
+  .cancel-transaction-btn {
+    margin: 20px 0 5px 0;
+    text-align: center;
+  }
+  .cancel-transaction-btn a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 20px;
+    color: #c04333;
+  }
+  .mobile-header .pay-flash-logo {
+    display: inline-block;
+    margin-bottom: 25px;
+  }
+  .mobile-header img {
+    max-width: 135px;
+    display: block;
+  }
+  .total-order-amount {
+    font-size: 22px;
+    line-height: 26px;
+    color: #000;
+    font-weight: 600;
+  }
+  .total-order-amount span {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .nav-tabs {
+    list-style-type: none;
+    margin: -20px 15px 30px 15px;
+  }
+  .nav-tabs .nav-item {
+    margin-bottom: 10px;
+  }
+  .nav-tabs .nav-item a {
+    display: flex;
+    align-items: center;
+    position: relative;
+    border-radius: 6px;
+    z-index: 1;
+    border: 1px solid #eee;
+    padding: 15px;
+    background-color: #fff;
+    text-decoration: none;
+  }
+  .nav-tabs .nav-item a::after {
+    content: '';
+    width: 8px;
+    height: 14px;
+    background: url('../img/right-arrow.png') no-repeat;
+    background-size: 8px 14px;
+    margin-left: auto;
+  }
+  .nav-tabs .nav-item.nav-dabit-card-item a::before {
+    content: '';
+    flex: 0 0 30px;
+    height: 30px;
+    background: url('../img/icons/menu-color-icon/dabit-card.svg');
+  }
+  .nav-tabs .nav-item.nav-credit-card-item a::before {
+    content: '';
+    flex: 0 0 30px;
+    height: 30px;
+    background: url('../img/icons/menu-color-icon/credit-card.svg');
+  }
+  .nav-tabs .nav-item.nav-net-banking-item a::before {
+    content: '';
+    flex: 0 0 30px;
+    height: 30px;
+    background: url('../img/icons/menu-color-icon/net-banking.svg');
+  }
+  .nav-tabs .nav-item.nav-walltet-cash-card-item a::before {
+    content: '';
+    flex: 0 0 30px;
+    height: 30px;
+    background: url('../img/icons/menu-color-icon/wallet.svg');
+  }
+  .nav-tabs .nav-item.nav-upi-item a::before {
+    content: '';
+    flex: 0 0 30px;
+    height: 30px;
+    background: url('../img/icons/menu-color-icon/upi.svg');
+    background-size: 35px 35px;
+  }
+  .item-content {
+    border-left: 1px solid #eaeaea;
+    margin-left: 10px;
+    padding-left: 10px;
+  }
+  .item-content span {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+    display: block;
+    color: #000;
+  }
+  .item-content p {
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+    color: #888;
+    display: block;
+    margin: 0;
+  }
+  .transaction-info {
+    display: none;
+  }
+  .tab-content .tab-pane {
+    padding: 15px 15px 30px 15px;
+    border-radius: 6px;
+    box-shadow: 0px 5px 10px #eaeaea;
+    position: relative;
+    margin: 15px;
+    background-color: #fff;
+  }
+  .note-box {
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  /* Footer Styles Starts */
+  .footer {
+    display: block;
+    border-top: solid 1px #eee;
+    background-color: #fff;
+    padding: 17px 25px;
+  }
+  .footer-card-icons {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .footer-card-icons a {
+    display: block;
+    text-decoration: none;
+    margin-right: 20px;
+  }
+  .footer-card-icons a img {
+    display: block;
+  }
+  /* Footer Styles Ends */
+
+  /* Layout Styles Starts */
+  .checkout-container  {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .checkout-col-right {
+    padding: 40px 40px 40px 0;
+    flex: 1 1 30%;
+  }
+  .checkout-col-left {
+    background-color: #FDFDFD;
+    box-shadow: inset -6px 0 10px rgba(0, 0, 0, 0.07);
+    flex: 1 1 30%;
+  }
+  .checkout-col-mid {
+    padding: 40px;
+    flex: 1 1 60%;
+  }
+  /* Layout Styles Ends */
+
+  /* Tab Nav Styles Starts */
+  .nav-tabs {
+    list-style-type: none;
+  }
+  .nav-tabs .nav-item a {
+    font-size: 24px;
+    line-height: 28px;
+    color: #000;
+    font-weight: 400;
+    display: block;
+    position: relative;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 14px 25px;
+  }
+  .nav-tabs .nav-item a .item-content p {
+    display: none;
+  }
+  .nav-tabs .nav-item:hover a,
+  .nav-tabs .nav-item.active-tab a {
+    background-color: #5B1D87;
+    color: #fff;
+  }
+  .nav-tabs .nav-item a::before {
+    margin-right: 20px;
+  }
+  .nav-tabs .nav-item:hover a::after,
+  .nav-tabs .nav-item.active-tab a::after  {
+    content: '';
+    width: 0;
+    height: 0;
+    border-top: 8px solid transparent;
+    border-right: 10px solid #fff;
+    border-bottom: 8px solid transparent;
+    position: absolute;
+    right: 0;
+    top: auto;
+    bottom: auto;
+    margin: auto;
+  }
+  .nav-tabs .nav-item.nav-dabit-card-item a::before {
+    content: '';
+    flex: 0 0 30px;
+    height: 30px;
+    background: url('../img/icons/menu-color-icon/dabit-card.svg');
+  }
+  .nav-tabs .nav-item.nav-dabit-card-item:hover a::before,
+  .nav-tabs .nav-item.nav-dabit-card-item.active-tab a::before {
+    content: '';
+    flex: 0 0 30px;
+    height: 30px;
+    background: url('../img/icons/menu-white-icon/dabit-card.svg');
+  }
+
+  .nav-tabs .nav-item.nav-credit-card-item a::before {
+    content: '';
+    flex: 0 0 30px;
+    height: 30px;
+    background: url('../img/icons/menu-color-icon/credit-card.svg');
+  }
+  .nav-tabs .nav-item.nav-credit-card-item:hover a::before,
+  .nav-tabs .nav-item.nav-credit-card-item.active-tab a::before {
+    content: '';
+    flex: 0 0 30px;
+    height: 30px;
+    background: url('../img/icons/menu-white-icon/credit-card.svg');
+  }
+
+  .nav-tabs .nav-item.nav-net-banking-item a::before {
+    content: '';
+    flex: 0 0 30px;
+    height: 30px;
+    background: url('../img/icons/menu-color-icon/net-banking.svg');
+  }
+  .nav-tabs .nav-item.nav-net-banking-item:hover a::before,
+  .nav-tabs .nav-item.nav-net-banking-item.active-tab a::before {
+    content: '';
+    flex: 0 0 30px;
+    height: 30px;
+    background: url('../img/icons/menu-white-icon/net-banking.svg');
+  }
+
+  .nav-tabs .nav-item.nav-walltet-cash-card-item a::before {
+    content: '';
+    flex: 0 0 30px;
+    height: 30px;
+    background: url('../img/icons/menu-color-icon/wallet.svg');
+  }
+  .nav-tabs .nav-item.nav-walltet-cash-card-item:hover a::before,
+  .nav-tabs .nav-item.nav-walltet-cash-card-item.active-tab a::before {
+    content: '';
+    flex: 0 0 30px;
+    height: 30px;
+    background: url('../img/icons/menu-white-icon/wallet.svg');
+  }
+
+  .nav-tabs .nav-item.nav-upi-item a::before {
+    content: '';
+    flex: 0 0 30px;
+    height: 30px;
+    background: url('../img/icons/menu-color-icon/upi.svg');
+    background-size: 35px 35px;
+  }
+  .nav-tabs .nav-item.nav-upi-item:hover a::before,
+  .nav-tabs .nav-item.nav-upi-item.active-tab a::before {
+    content: '';
+    flex: 0 0 30px;
+    height: 30px;
+    background: url('../img/icons/menu-white-icon/upi.svg');
+    background-size: 35px 35px;
+  }
+  .tab-content .tab-pane.active {
+    display: block;
+  }
+  .tab-content .tab-pane {
+    display: none;
+    min-height: 420px;
+  }
+  .banking-logos {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 20px;
+    margin-bottom: 80px;
+  }
+  .banking-logos a {
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    background-color: #FFFFFF;
+    border: solid 1px #EEEEEE;
+    transition: all 0.2s ease;
+  }
+  .banking-logos a:hover {
+    box-shadow: 0px 0px 14px #ccc;
+    -webkit-transform: translateY(-3px);
+    -ms-transform: translateY(-3px);
+    transform: translateY(-3px);
+  }
+  .banking-logos a img {
+    display: block;
+  }
+  .all-banks-dropdown {
+    margin-bottom: 60px;
+  }
+  .cash-card-logos {
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+    display: flex;
+  }
+  .cash-card-logos a {
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 230px;
+    height: 60px;
+    background-color: #FFFFFF;
+    border: solid 1px #EEEEEE;
+    transition: all 0.2s ease;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    padding: 15px;
+  }
+  .cash-card-logos a:nth-child(2n) {
+    margin-right: 0;
+  }
+  .cash-card-logos a:hover {
+    box-shadow: 0px 0px 14px #ccc;
+    -webkit-transform: translateY(-3px);
+    -ms-transform: translateY(-3px);
+    transform: translateY(-3px);
+  }
+  .cash-card-logos a span {
+    font-size: 18px;
+    line-height: 22px;
+    color: #000;
+    margin-left: 15px;
+  }
+  .cash-card-logos a img {
+    display: block;
+  }
+
+  .select-wallet-dropdown {
+    margin-bottom: 60px;
+  }
+
+  .upi-logos {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 20px;
+    margin-bottom: 40px;
+  }
+  .upi-logos a {
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    background-color: #FFFFFF;
+    border: solid 1px #EEEEEE;
+    transition: all 0.2s ease;
+  }
+  .upi-logos a:hover {
+    box-shadow: 0px 0px 14px #ccc;
+    -webkit-transform: translateY(-3px);
+    -ms-transform: translateY(-3px);
+    transform: translateY(-3px);
+  }
+  .upi-logos a img {
+    display: block;
+  }
+  .form-group-upi {
+    display: flex;
+    margin-bottom: 40px;
+  }
+  .upi-symbol {
+    font-size: 24px;
+    line-height: 28px;
+    color: #787878;
+    flex: 0 0 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .upi-address-field {
+    width: 50%;
+  }
+  .upi-address-field-small {
+    width: 25%;
+  }
+  /* Tab Nav Styles Ends */
+
+  /* Transaction info Styles Starts */
+  .transaction-info {
+    text-align: right;
+    margin-bottom: 35px;
+  }
+  .transaction-id {
+    font-size: 18px;
+    line-height: 22px;
+    color: #000;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .transaction-id strong {
+    font-weight: 500;
+    margin-right: 5px;
+  }
+  .transaction-id span {
+    font-weight: 500;
+    color: #2567CB;
+  }
+  .transaction-info p {
+    font-size: 14px;
+    line-height: 18px;
+    color: #000;
+    font-weight: 400;
+  }
+  /* Transaction info Styles Ends */
+
+  .green-grey-divider {
+    background-color: #D9D9D9;
+    border-radius: 9px;
+    display: flex;
+    height: 5px;
+    margin-bottom: 35px;
+    overflow: hidden;
+  }
+  .green-grey-divider::before {
+    content: '';
+    background-color: #4C9A44;
+    width: 100px;
+  }
+
+  /* Form Styles Starts */
+  
+  .form-label {
+    margin-bottom: 5px;
+    display: block;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000;
+    font-weight: 500;
+  }
+  .form-col-3 {
+    display: flex;
+    justify-content: space-between;
+  }
+  .form-col-3 .form-group {
+    flex: 1 1 33.333%;
+    margin-right: 20px;
+  }
+  .form-col-3 .form-group:last-child {
+    margin-right: 0;
+  }
+  /* Form Styles Ends */
+
+  /* Order Summory Styles Starts */
+  .bordered-box {
+    border: solid 1px #D9D9D9;
+  }
+  .company-info {
+    display: flex;
+    padding: 20px;
+    justify-content: flex-start;
+  }
+  .company-name {
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 10px;
+  }
+  .company-email,
+  .company-phone {
+    margin-bottom: 5px;
+    position: relative;
+    display: flex;
+    margin-bottom: 10px;
+  }
+  .company-email a,
+  .company-phone a {
+    font-size: 14px;
+    line-height: 18px;
+    color: #787878;
+    font-weight: 400;
+    text-decoration: none;
+  }
+  .company-email a:hover,
+  .company-phone a:hover {text-decoration: underline;
+  }
+  .company-email::before {
+    content: '';
+    width: 18px;
+    height: 18px;
+    background: url('../img/icons/email.svg') no-repeat;
+    background-size: 18px 18px;
+    margin-right: 5px;
+  }
+  .company-phone::before {
+    content: '';
+    width: 18px;
+    height: 18px;
+    background: url('../img/icons/phone.svg') no-repeat;
+    background-size: 18px 18px;
+    margin-right: 5px;
+  }
+  .company-logo {
+    flex: 0 1 75px;
+    margin-right: 18px;
+  }
+  .company-logo img {
+    display: block;
+  }
+  .order-summary-heading {
+    font-size: 18px;
+    line-height: 22px;
+    color: #000;
+    font-weight: 600;
+    padding: 20px 20px 15px 20px;
+  }
+  .total-order-summary {
+    background-color: #4C9A44;
+    color: #fff;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 28px;
+  }
+  .total-order-summary strong {
+    font-weight: 700;
+  }
+  /* Order Summory Styles Ends */
+
+  /* Logo Styles Starts */
+  .pay-flash-logo {
+    display: block;
+    margin: 60px auto 50px auto;
+    text-align: center;
+  }
+  .pay-flash-logo img {
+    display: inline-block;
+  }
+  .mobile-header {
+    display: none;
+  }
+  /* Logo Styles Ends */
+  .cancel-transaction-btn {
+    display: none;
+  }
+  .form-control {
+    border: solid 1px #D9D9D9;
+    color: #787878;
+    background-color: #fff;
+    outline: none;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 14px;
+    width: 100%;
+  }
+  .tab-pane-heading {
+    display: none;
+  }
+
+}
+
+.SumoSelect {
+  width: 100%;
+}
+.SumoSelect>.optWrapper>.options li.opt {
+  padding: 15px 15px;
+}
+.SumoSelect.open>.optWrapper {
+  top: 50px;
+}
+.SumoSelect.open .search-txt {
+  padding: 15px 12px;
+}
+
+
+/* Login Page Styles Starts */
+.linear-gradient {
+  background: linear-gradient(37.02deg, #3916A0 6.02%, #FFF 106.93%)
+}
+.auth-content {
+  text-align: center;
+  margin-top: 80px;
+}
+.auth-content h2 {
+  font-size: 20px;
+  line-height: 24px;
+  color: #fff;
+  margin-bottom: 25px;
+}
+.auth-content p {
+  font-size: 17px;
+  line-height: 21px;
+  color: #fff;
+  margin: 0;
+}
+.left-col-auth {
+  position: relative;
+}
+.auth-page-container {
+  padding: 80px 0 80px 100px;
+  width: 535px;
+}
+.pay-flash-logo-white {
+  display: block;
+  margin-bottom: 10px;
+  margin-left: 80px;
+}
+.pay-flash-logo-white img {
+  display: block;
+}
+.auth-page-slider {
+  width: 350px;
+  margin: auto;
+}
+.slick-slide img {
+  width: 100%;
+}
+.login-wrap {
+  position: relative;
+  width: 70%;
+}
+.auth-form-container {
+  background: #E1E6E8;
+  border: 1px solid #8B8B8B;
+  box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.15);
+  border-radius: 25px;
+  padding: 30px 40px 60px 40px;
+  margin-bottom: 60px;
+  max-width: 450px;
+  height: 600px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: -20%;
+  bottom: 0;
+  margin: auto;
+}
+.auth-heading {
+  font-size: 26px;
+  line-height: 30px;
+  text-align: center;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+.auth-sub-heading {
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  margin-bottom: 28px;
+  font-weight: 400;
+}
+.auth-form-group {
+  margin-bottom: 15px;
+  position: relative;
+}
+.auth-form-control {
+  background: #FFFFFF;
+  border: 1px solid #D0D0D0;
+  border-radius: 10px;
+  color: #8B8B8B;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 14px 10px 14px 45px;
+  width: 100%;
+}
+.auth-form-control:focus-visible,
+.auth-form-control:focus {
+  border: 1px solid #D0D0D0 !important;
+}
+.auth-buttons-group {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.purple-btn {
+  background-color: #5A1C84;
+  border-radius: 10px;
+  padding: 14px 50px;
+  color: #fff;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  text-align: center;
+  display: block;
+  cursor: pointer;
+  text-transform: uppercase;
+  width: 100%;
+}
+.forgot-pass-link {
+  margin: 0 0 10px 0;
+  text-align: center;
+}
+.forgot-pass-link a {
+  font-size: 18px;
+  line-height: 22px;
+  color: #5A1C84;
+  font-weight: 500;
+  text-decoration: none;
+}
+.forgot-pass-link a:hover {
+  text-decoration: underline;
+}
+.sign-up-txt {
+  margin: 0;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #3B3B3C;
+  text-align: center;
+}
+.sign-up-txt a {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  color: #5A1C84;
+  text-decoration: none;
+}
+.sign-up-txt a:hover {
+  text-decoration: underline;
+}
+.name-control::before {
+  content: '';
+  width: 24px;
+  height: 24px;
+  background: url('../img/icons/auth-icons/name.svg') no-repeat;
+  background-size: 24px 24px;
+  position: absolute;
+  left: 10px;
+  top: 12px;
+}
+.password-control::before {
+  content: '';
+  width: 24px;
+  height: 24px;
+  background: url('../img/icons/auth-icons/password.svg') no-repeat;
+  background-size: 24px 24px;
+  position: absolute;
+  left: 10px;
+  top: 12px;
+}
+.captcha-control::before {
+  content: '';
+  width: 24px;
+  height: 24px;
+  background: url('../img/icons/auth-icons/captcha.svg') no-repeat;
+  background-size: 24px 24px;
+  position: absolute;
+  left: 10px;
+  top: 12px;
+}
+.email-control::before {
+  content: '';
+  width: 24px;
+  height: 24px;
+  background: url('../img/icons/auth-icons/email.svg') no-repeat;
+  background-size: 24px 24px;
+  position: absolute;
+  left: 10px;
+  top: 12px;
+}
+.mobile-control::before {
+  content: '';
+  width: 24px;
+  height: 24px;
+  background: url('../img/icons/auth-icons/mobile.svg') no-repeat;
+  background-size: 24px 24px;
+  position: absolute;
+  left: 10px;
+  top: 12px;
+}
+.slick-dots {
+  bottom: -50px;
+}
+.slick-dots li {
+  width: auto;
+  height: auto;
+}
+.slick-dots li button {
+  width: 15px;
+  height: 8px;
+  border-radius: 100px;
+  background-color: #fff;
+  padding: 0;
+}
+.slick-dots li button::before {
+  display: none;
+}
+.slick-dots li.slick-active button {
+  width: 50px;
+  height: 8px;
+  border-radius: 100px;
+  background-color: #fff;
+  opacity: 30%;
+}
+.pay-flash-logo-auth {
+  display: none;
+}
+
+
+.confirm-checkbox {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin: 25px 0 0 10px;
+  font-size: 14px;
+  line-height: 18px;
+  color: #8B8B8B;
+  font-weight: 400;
+  cursor: pointer;
+}
+.confirm-checkbox input {
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  cursor: pointer;
+  height: 20px;
+  width: 20px;
+  z-index: 1;
+}
+.confirm-checkbox .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  border: solid 2px #8B8B8B;
+  border-radius: 2px;
+}
+/*.confirm-checkbox input[type=checkbox]:checked + span {
+  background-color: #2196F3;
+}*/
+.confirm-checkbox .checkmark:after {
+  content: "";
+  position: absolute;
+  left: 5px;
+  top: 1px;
+  width: 4px;
+  height: 9px;
+  border: solid #8B8B8B;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  display: none;
+}
+.confirm-checkbox input[type='checkbox']:checked + .checkmark:after {
+  display: block;
+}
+.auth-signup-form-container {
+  height: 670px;
+}
+
+@media only screen and (max-width: 992px) {
+  .login-wrap {
+    width: 100%;
+  }
+  .auth-form-container {
+    position: static;
+    border-radius: 0;
+    border: none;
+    box-shadow: none;
+    padding: 60px 0 50px 0;
+    height: auto;
+    max-width: 350px;
+  }
+  .auth-page-container {
+    margin: auto;
+    padding-left: 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .pay-flash-logo-white {
+    margin-left: 0;
+    text-align: center;
+  }
+  .pay-flash-logo-white img {
+    display: inline-block;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .left-col-auth {
+    display: none;
+  }
+  .auth-form-container {
+    padding: 50px;
+    max-width: none;
+  }
+  .auth-form-group {
+    margin-bottom: 25px;
+  }
+  .pay-flash-logo-auth {
+    display: block;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .pay-flash-logo-auth img {
+    display: inline-block;
+    max-width: 250px;
+    width: 100%;
+  }
+  .forgot-form-wrap {
+    width: 100%;
+    padding: 0 25px;
+  }
+}
+/* Login Page Styles Ends */
+
+/* Forgot Password Page Styles Starts */
+.forgot-form-wrap {
+  text-align: center;
+  width: 28%;
+  margin: 130px auto 0;
+  position: relative;
+}
+.forgot-form-wrap form {
+  padding: 0 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.forgot-form-heading {
+  font-size: 32px;
+  line-height: 46px;
+  color: #000;
+  margin-bottom: 15px;
+  font-weight: 400;
+}
+.email-form-group {
+  width: 100%;
+}
+.back-link {
+  position: absolute;
+  top: -20%;
+  left: -50%;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #000;
+  text-decoration: none;
+}
+.back-link::before {
+  content: '';
+  width: 21px;
+  height: 16px;
+  background: url('../img/arrow-left.svg') no-repeat;
+  background-size: 21px 16px;
+  margin-right: 4px;
+}
+@media only screen and (max-width: 768px) {
+  .forgot-form-wrap {
+    width: 100%;
+    padding: 0 25px;
+  }
+  .back-link {
+    left: 30px;
+    top: -50px;
+  }
+}
+/* Forgot Password Page Styles Ends */

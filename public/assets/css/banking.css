@@ -1,0 +1,395 @@
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+  }
+  
+  /* a {
+    color: #00a8e9;
+  } */
+  
+  a:hover {
+    color: #34e5a6;
+    text-decoration: none;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  
+  
+  
+  
+  /*--------------------------------------------------------------
+  # Disable AOS delay on mobile
+  --------------------------------------------------------------*/
+   @media screen and (max-width: 768px) {
+    [data-aos-delay] {
+      transition-delay: 0 !important;
+    }
+  } 
+ 
+  /* banner */
+
+.banner {
+    background: url(../img/banking.png) center no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+
+.banner_text_wthree_pvt {
+    padding: 15vw 0;
+}
+
+.banner:before,
+.inner-banner-w3ls:before {
+    position: absolute;
+    content: '';
+    /* background: rgba(0, 0, 0, 0.24); */
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+button.btn.bg-theme {
+    letter-spacing: 1px;
+}
+
+.bg-theme {
+    background: #00f2aa;
+    color: #fff;
+}
+
+.bg-theme1 {
+    background: #ffffff;
+    color: #000;
+}
+
+.banner-bottom-w3ls {
+    position: absolute;
+    bottom: -150px;
+    left: 14%;
+    width: 72%;
+}
+
+.bb-img h3 {
+    text-transform: capitalize;
+    font-size: 1.2em;
+    text-align: center;
+    margin: 1em 0 0;
+    color: #000;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+}
+
+.align-w3-abt {
+    padding: 14em 0 8em;
+}
+
+.wthree-link-bnr {
+    padding: 8px 25px;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 14px;
+    background: #0083ff;
+    border: 1.5px solid #ffffff;
+    text-transform: uppercase;
+}
+
+.wthree-link-bnr:hover {
+    color: #fff;
+    opacity: .8;
+}
+
+button.btn.wthree-link-bnr:hover {
+    background: #fff;
+    color: #000;
+}
+
+p.bnr-txt {
+    width: 50%;
+    color: #fff;
+    font-size: 0.9em;
+    margin: 0.5em 0 1.2em;
+    line-height: 2;
+}
+
+button.wthree-link-bnr:hover {
+    background: #0083ff;
+    color: #fff;
+}
+
+h3.home-banner-w3 {
+    color: #fff;
+    font-size: 2.5em;
+    line-height: 1.4;
+    text-transform: capitalize;
+    width: 50%;
+    font-weight: 700;
+    word-spacing: 4px;
+}
+h3.home-banner-w3 span {
+    color: #fff;
+    font-size: 2.5em;
+    line-height: 1.4;
+    text-transform: capitalize;
+    width: 50%;
+    font-weight: 700;
+    word-spacing: 4px;
+}
+
+@media screen and (max-width: 568px) {
+  
+  .banner-bottom-w3ls {
+      bottom: -90%;
+  }
+
+  .align-w3-abt {
+      padding: 22em 0 8em;
+  }
+
+  h3.home-banner-w3 {
+      font-size: 1.8em;
+  }
+
+  p.bnr-txt {
+      font-size: 1em;
+      line-height: 1.5;
+  }
+
+  .align-w3-abt {
+      padding: 22em 0 3em;
+  }
+
+  h4.w3pvt-title {
+      font-size: 1.6em;
+  }
+
+  .services-bg-color {
+      padding: 0;
+  }
+}
+
+
+@media screen and (max-width: 667px) {
+  .bb-img h3 {
+      font-size: 1em;
+  }
+
+  .abt-icon {
+      width: 60px;
+      height: 60px;
+  }
+
+  .abt-icon span {
+      font-size: 1.5em;
+  }
+
+  h4.w3pvt-title {
+      font-size: 1.8em;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .slide-banner {
+      min-height: 385px;
+  }
+
+  .carousel-indicators {
+      bottom: -35px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .banner-bottom-w3ls {
+      left: 5%;
+      width: 90%;
+  }
+}
+
+
+@media screen and (max-width: 414px) {
+  .right_nav {
+      margin: 0.5em auto;
+  }
+
+  h3.home-banner-w3 {
+      font-size: 1.4em;
+  }
+
+  .align-w3-abt {
+      padding: 19em 0 0em;
+  }
+}
+
+@media screen and (max-width: 384px) {
+  .banner-bottom-w3ls {
+      left: 0;
+      width: 100%;
+  }
+
+  .img-grid {
+      padding: 0;
+  }
+
+  .testi-text p {
+      width: 100%;
+      font-size: 1em;
+  }
+
+  .testi-desc h5 {
+      font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .inner-banner-w3ls {
+      min-height: 180px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  h3.home-banner-w3 {
+      font-size: 1.2em;
+  }
+
+  .banner-bottom-w3ls {
+      bottom: -80%;
+  }
+
+  .bb-img h3 {
+      font-size: 0.9em;
+  }
+
+  .abt-icon {
+      width: 50px;
+      height: 50px;
+  }
+
+  .abt-icon span {
+      font-size: 1.2em;
+  }
+
+  .abt-txt h4 {
+      font-size: 1em;
+  }
+
+  .align-w3-abt {
+      padding: 17em 0 0em;
+  }
+
+  h4.w3pvt-title {
+      font-size: 1.4em;
+  }
+
+  h4.home-title {
+      font-size: 1.1em;
+  }
+}
+
+ /* ----section---- */
+  
+ 
+  .section-title h2 {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0;
+    line-height: 1px;
+    margin: 0 0 5px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #aaaaaa;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .section-title h2::after {
+    content: "";
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    background: #1acc8d;
+    margin: 4px 10px;
+  }
+  
+  .section-title p {
+    margin: 0;
+    margin: 0;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #010483;
+  }
+
+
+
+/* about */
+
+.abt-icon {
+    width: 80px;
+    height: 80px;
+    border: solid;
+    border-width: 3px;
+    border-top-color: #0087fc;
+    border-bottom-color: #00f0ac;
+    border-left-color: #00efac;
+    border-right-color: #0083ff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.abt-icon span {
+    font-size: 1.7em;
+    color: #0083ff;
+}
+
+.abt-txt h4 {
+    text-transform: capitalize;
+    font-size: 1.3em;
+    margin-bottom: 0.5em;
+}
+
+.abt-txt {
+    margin-left: 1em;
+}
+
+/* //about */
+
+/* services */
+
+.bg-services {
+    background: url(../img/slide.jpg) no-repeat;
+    background-size: cover;
+}
+
+.services-bg-color {
+    padding: 2em;
+}
+
+h4.home-title {
+    text-transform: capitalize;
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+    font-weight: 600;
+}
+
+/* services */
+
+
+  
+
+  

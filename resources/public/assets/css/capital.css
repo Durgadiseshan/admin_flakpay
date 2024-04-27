@@ -1,0 +1,298 @@
+/*--------------------------------------------------------------
+# Intro Section
+--------------------------------------------------------------*/
+#intro {
+    width: 100%;
+    position: relative;
+    background: url("../img/intro-capital.jpg") center bottom no-repeat;
+    background-size: cover;
+    padding: 200px 0 120px 0;
+  }
+  
+  @media (max-width: 991px) {
+    #intro {
+      padding: 140px 0 60px 0;
+    }
+  }
+  
+  @media (max-width: 574px) {
+    #intro {
+      padding: 100px 0 20px 0;
+    }
+  }
+  
+  #intro .intro-img {
+    width: 50%;
+    float: right;
+    position: relative;
+    left: 50px;
+    bottom: 60px;
+    
+  }
+  
+  @media (max-width: 991px) {
+    #intro .intro-img {
+      width: 80%;
+      float: none;
+      margin: 0 auto 25px auto;
+    }
+  }
+  
+  #intro .intro-info {
+    width: 50%;
+    float: left;
+  }
+  
+  @media (max-width: 991px) {
+    #intro .intro-info {
+      width: 80%;
+      float: none;
+      margin: auto;
+      text-align: center;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    #intro .intro-info {
+      width: 100%;
+    }
+  }
+  
+  #intro .intro-info h2 {
+    color: #111180;
+    font-size: 44px;
+    font-weight: 750;
+    margin-top: 13%;
+    line-height: 55px;
+    text-shadow: 5px 4px 11px rgba(0, 0, 0, 0.35);
+  }
+  
+  #intro .intro-info p {
+    font-weight: 450;
+    text-align: justify;
+  }
+  
+  @media (max-width: 767px) {
+    #intro .intro-info h2 {
+      font-size: 34px;
+      margin-bottom: 30px;
+    }
+  }
+  
+  #intro .intro-info .btn-get-started {
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    font-weight: 650;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 22px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin: 0 20px 20px 0;
+    color: #fff;
+  }
+  
+  #intro .intro-info .btn-get-started {
+    background: #00a8e9;
+    border: 2px solid #00a8e9;
+    color: #fff;
+  }
+  
+  #intro .intro-info .btn-get-started:hover {
+    background: none;
+    border-color: #fff;
+    color: #fff;
+  }
+  
+  #intro .intro-info .btn-services {
+    border: 2px solid #fff;
+  }
+  
+  #intro .intro-info .btn-services:hover {
+    background: #007bff;
+    border-color: #007bff;
+    color: #fff;
+  }
+
+
+  /*  */
+  .w3l-index-block4 .features-bg {
+    background: var(--light-bg-color); }
+  
+  .w3l-index-block4 .feature-unit {
+    border-radius: var(--card-curve);
+    transition: 0.3s ease-in;
+    padding: 2rem 1rem;
+    box-shadow: var(--card-box-shadow);
+    background: #fff; }
+  
+  .w3l-index-block4 .feature-unit:hover {
+    box-shadow: var(--card-hover-box-shadow);
+    transition: 0.3s ease-in; }
+  
+  .w3l-index-block4 .features15-col-text {
+    margin-top: 30px; }
+  
+  .w3l-index-block4 .features15-para h4 {
+    font-size: 22px;
+    line-height: 25px;
+    color: var(--title-color); }
+  
+  .w3l-index-block4 .features15-para p {
+    color: var(--text-color);
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 22px;
+text-decoration: none; }
+  
+  .w3l-index-block4 .features15-col-text:hover div.features15-para h4 {
+    transition: 0.3s ease-in-out;
+    color: var(--secondary-color);
+text-decoration: none; }
+    .w3l-index-block4 .features15-para h4:hover {
+        transition: 0.3s ease-in-out;
+        color: var(--secondary-color); }
+      
+      .w3l-index-block4 .features15-info {
+        background: #fff;
+        width: 100px;
+        height: 100px;
+        margin: auto;
+        line-height: 100px;
+        border-radius: 50%;
+        box-shadow: 0 0px 6px 0 rgba(0, 0, 0, 0.1);
+        text-align: center; }
+      
+      .w3l-index-block4 .features15-info span {
+        font-size: 40px;
+        color: var(--primary-color);
+        line-height: 100px;
+        display: block; }
+      
+      .w3l-index-block4 .features15-col-text:hover div.features15-info {
+        background: var(--primary-color);
+        color: #fff;
+        transition: 0.3s ease-in-out; }
+      
+      .w3l-index-block4 .features15-col-text:hover span.fa {
+        color: #00a8e9 }
+      
+      @media (max-width: 576px) {
+        .w3l-index-block4 .features15-info {
+          background: #fff;
+          width: 70px;
+          height: 70px;
+          line-height: 70px;
+          margin-right: auto;
+          margin-left: 0; }
+        .w3l-index-block4 .features15-info span {
+          font-size: 30px;
+          line-height: 70px; } }
+  /*  */
+
+  /* section-----------------*/
+  .section-title p {
+    margin: 0;
+    margin: 0;
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #010483;
+  }
+
+  /* Why Us Section
+--------------------------------*/
+#why-us {
+    padding: 60px 0;
+  }
+  
+  @media (max-width: 991px) {
+    #why-us .why-us-content {
+      padding-top: 30px;
+    }
+  }
+  
+  #why-us .why-us-content .features {
+    margin: 0 0 15px 0;
+    padding: 0;
+    transition: 0.3s ease-in-out;
+  }
+  
+  #why-us .why-us-content .features i {
+    font-size: 36px;
+    float: left;
+  }
+  
+  #why-us .why-us-content .features h4 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 56px;
+    color: #413e66;
+    margin-bottom: 5px;
+  }
+  
+  #why-us .why-us-content .features p {
+    font-size: 15px;
+    margin-left: 56px;
+    color: #555186;
+  }
+
+  /* Services Section
+--------------------------------*/
+#services {
+    padding: 60px 0 40px 0;
+  }
+  
+  #services .box {
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 0 10px 40px 10px;
+    background: #fff;
+    box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+  }
+  
+  #services .box:hover {
+    transform: scale(1.1);
+  }
+  
+  #services .icon {
+    margin: 0 auto 15px auto;
+    padding-top: 12px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+  }
+  
+  #services .icon i {
+    font-size: 36px;
+    line-height: 1;
+  }
+  
+  #services .title {
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+  
+  #services .title a {
+    color: #111;
+    font-weight: 500;
+  }
+  
+  #services .box:hover .title a {
+    color: #1bb1dc;
+  }
+  
+  #services .description {
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 0;
+    text-align: center justify;
+  }

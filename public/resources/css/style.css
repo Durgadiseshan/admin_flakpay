@@ -1,0 +1,182 @@
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  /* font-family: "Times New Roman", Times, serif; */
+	font-family: Calibri (Body);
+	background-image: url(../assets/img/back.png);
+	background-position: center;
+	background-attachment: fixed; 
+	background-repeat: no-repeat;
+	box-sizing: border-box;	
+  
+}
+@media (min-width: 1200px){
+  body{
+    overflow-y: hidden;
+  }
+}
+.padding-0{
+    padding-right:0 !important;
+    padding-left:0 !important;
+    border: none;
+}
+#bdy{
+    margin-top: 5px;
+    margin-bottom: 100px;
+    margin-right: auto;
+}
+ .footer {
+  position: fixed;
+  left: 0;
+  height: 100px;
+  bottom: 0;
+  vertical-align: middle;
+  display: ruby;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  /* background-color: red; */
+  color: white;
+  text-align: center;
+}
+.note
+{
+    text-align: center;
+    height: 80px;
+     background: white; 
+     /* background: -webkit-linear-gradient(left,  #84c3f5, #0a4f85);
+      background: -webkit-linear-gradient(left, #f82471, #5f0324 ); */
+    color: rgb(68, 67, 67);
+    font-weight: bold;
+    line-height: 80px;
+}
+
+.modal-header-info {
+    color:#fff;
+    padding:9px 15px;
+    border-bottom:1px solid #eee;
+    background-color: #171b2f;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+     border-top-left-radius: 5px;
+     border-top-right-radius: 5px;
+}
+.modal-dialog {
+ 
+          width: 360px;
+          height: 10px;
+ 
+        }
+.modal-header {
+ 
+    background-color: #171b2f;
+ 
+    padding:16px 16px;
+ 
+    color:#FFF;
+ 
+    border-bottom:2px dashed #171b2f;
+ 
+ }
+.cc-selector input{
+    margin:0;padding:0;
+    -webkit-appearance:none;
+       -moz-appearance:none;
+            appearance:none;
+}
+.sbi{background-image:url(/resources/img/sbi-logo.gif);}
+.hdfc{background-image:url(/resources/img/sbi.png);}
+.icici{background-image:url(/resources/img/icici-bank.jpg);}
+.axis{background-image:url(/resources/img/axis1.png);}
+.idbi{background-image:url(/resources/img/idbi.jpg);}
+.kotak{background-image:url(/resources/img/kotak.jpg);}
+.hsbc{background-image:url(/resources/img/hsbc.png);}
+.union{background-image:url(/resources/img/union.png);}
+
+.cc-selector input:active +.drinkcard-cc{opacity: .9;}
+.cc-selector input:checked +.drinkcard-cc{
+    -webkit-filter: none;
+       -moz-filter: none;
+            filter: none;
+}
+.drinkcard-cc{
+    cursor:pointer;
+    background-size:contain;
+    background-repeat:no-repeat;
+    display:inline-block;
+    /* width:60px;height:40px; */
+    -webkit-transition: all 100ms ease-in;
+       -moz-transition: all 100ms ease-in;
+            transition: all 100ms ease-in;
+     -webkit-filter: brightness(1.8) grayscale(1) opacity(.7);
+       -moz-filter: brightness(1.8) grayscale(1) opacity(.7);
+            filter: brightness(1.8) grayscale(1) opacity(.7); 
+}
+.drinkcard-cc:hover{
+    -webkit-filter: brightness(1.2) grayscale(.5) opacity(.9);
+       -moz-filter: brightness(1.2) grayscale(.5) opacity(.9);
+            filter: brightness(1.2) grayscale(.5) opacity(.9);
+}
+
+/* Extras */
+a:visited{color:#888}
+a{color:#444;text-decoration:none;}
+p{margin-bottom:.3em;}
+
+  span.error{
+    color: red;
+    margin-left: 5px;
+  }
+.text-truncate {
+  white-space: nowrap; 
+  width: 180px; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.active {
+  background-color: #000 !important;
+}
+
+
+.title p {
+ font-weight: 600;
+ font-size: 14px;
+}
+.box-part{
+    margin: 10px auto;
+}
+@media (max-width:468px){
+  .bank{
+      display: inline;
+  }  
+  .rounded{
+      width: 50px;
+      margin-top : 20px;
+  }
+  .maill{
+      font-size: 12px;
+  }
+}
+
+.right-menu p{
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.middle-part{
+  padding: 0.6rem 0.6rem 0 0.6rem !important;
+}
+.atm{
+  border: 1px solid #ddd;
+  box-shadow: 3px 3px 5px #ccc;
+      -moz-box-shadow: 3px 3px 5px #ccc;
+      -webkit-box-shadow: 3px 3px 5px #ccc;
+      -khtml-box-shadow: 3px 3px 5px #ccc;
+}
